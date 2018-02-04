@@ -1,5 +1,5 @@
 num = int(input("Enter a number: "))        # taking input from user
-flag = True                                # flag for if a number is prime or not
+flag = True                                 # flag for if a number is prime or not
 
 if num > 1:                                 # the prime no. are greater than 1
     for i in range(2, num):                 # going through every number btw 2 and num-1
