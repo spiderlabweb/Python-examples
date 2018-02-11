@@ -9,4 +9,4 @@ if(year%4 == 0):                                                # checking wheth
     else:
         print("The {0} is a leap year.".format(year))           # printing the year is leap year
 else:
-    print("The {0} is not leap year.".format(year))             # printing the year is not a leap year
+    print("The {0} is not a leap year.".format(year))             # printing the year is not a leap year
