@@ -1,13 +1,23 @@
-num1 = int(input("Enter first number: "))           # taking first number
-num2 = int(input("Enter second number: "))          # taking second number
-num3 = int(input("Enter third number: "))           # taking third number
+# taking first number
+num1 = int(input("Enter first number: "))           
+# taking second number
+num2 = int(input("Enter second number: "))          
+# taking third number
+num3 = int(input("Enter third number: "))           
 
-max = num1                                          # assuming first number to max
-if(num2 > max):                                     # checking if num2 is greater than max
-    max = num2                                      # assigning num2 to max
-elif(num3 > max):                                   # checking if num3 is greater than max
-    max = num3                                      # assigning num3 to max
+# assuming first number to max
+max = num1                                          
+# checking if num2 is greater than max
+if(num2 > max):                                     
+    # assigning num2 to max
+    max = num2                                      
+# checking if num3 is greater than max
+elif(num3 > max):                                   
+    # assigning num3 to max
+    max = num3                                      
 else:
-    max = num1                                      # assigning num1 to max
+    # assigning num1 to max
+    max = num1                                      
 
-print("The greatest number is ",max)                # printing the max
+# printing the max
+print("The greatest number is ",max)                

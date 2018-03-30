@@ -10,12 +10,12 @@ while temp > 0:
     temp = temp // 10
     # storing the sum of cube of the digits in sum variable
     sum = sum + pow(n,3)   
- # printing the sum                         
+# printing the sum                         
 print("The sum is ",sum)            
- # checking whether the sum is equal to num or not               
+# checking whether the sum is equal to num or not               
 if(sum == num):                 
-     # printing the num is an Armstrong number                   
+    # printing the num is an Armstrong number                   
     print(num," is an Armstrong Number.")          
 else:
-     # printing the num is not an Armstrong number
+    # printing the num is not an Armstrong number
     print(num," is not an Armstrong Number.")      

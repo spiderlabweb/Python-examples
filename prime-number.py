@@ -1,14 +1,23 @@
-num = int(input("Enter a number: "))        # taking input from user
-flag = True                                 # flag for if a number is prime or not
+# taking input from user
+num = int(input("Enter a number: "))        
+# flag for if a number is prime or not
+flag = True                                 
 
-if num > 1:                                 # the prime no. are greater than 1
-    for i in range(2, num):                 # going through every number btw 2 and num-1
-        if num % i == 0:                    # checking the num is divisible by no.
-            flag = False                    # if does then flag = False, it's not a prime no. 
+# the prime no. are greater than 1
+if num > 1:                                 
+    # going through every number btw 2 and num-1
+    for i in range(2, num):                 
+        # checking the num is divisible by no.
+        if num % i == 0:                    
+            # if does then flag = False, it's not a prime no.
+            flag = False                     
             break
     if flag == False:
-        print("The number is not prime.")   # prints not a prime
+        # prints not a prime
+        print("The number is not prime.")   
     else:
-        print("The number is prime.")       # prints a prime
+        # prints a prime
+        print("The number is prime.")       
 else:
-    print("The number is not prime.")       # prints not a prime
+    # prints not a prime
+    print("The number is not prime.")       
