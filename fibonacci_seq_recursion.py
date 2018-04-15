@@ -1,8 +1,10 @@
 # Recursive function for fibonacci sequence
 def fib(n):
     if n <=1:
+        # Base Case
         return n
     else:
+        # Iterative case
         return fib(n-1) + fib(n-2)
 
 
