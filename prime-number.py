@@ -6,7 +6,7 @@ flag = True
 # the prime no. are greater than 1
 if num > 1:                                 
     # going through every number btw 2 and num-1
-    for i in range(2, num//2):                 
+    for i in range(2,num//2):                 
         # checking the num is divisible by no.
         if num % i == 0:                    
             # if does then flag = False, it's not a prime no.
