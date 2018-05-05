@@ -1,5 +1,6 @@
 # taking number
 num = int(input("Enter a number: "))
+
 # initializing sum to zero
 sum = 0
 # going through every digit using every for loop
