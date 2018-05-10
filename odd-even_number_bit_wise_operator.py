@@ -1,6 +1,6 @@
 # taking an input
 num = int(input("Enter a number: "))    
-
+print(num&1)
 # checking whether a number is even using bitwise operator
 if num&1:                          
     # if its odd then prints odd number
