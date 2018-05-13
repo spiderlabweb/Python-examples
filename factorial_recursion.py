@@ -1,11 +1,11 @@
 # defining the recursive function for finding factorial
-def fac(n):
-    if n <= 0:
+def fac(num):
+    if num <= 0:
         # Base case
         return 1
     else:
         # Iterative case
-        return n * fac(n-1)
+        return num * fac(num-1)
 
 # Taking input from user
 num = int(input("Enter a number:"))
