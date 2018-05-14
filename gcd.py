@@ -12,4 +12,4 @@ for i in range(min(num1,num2),0,-1):
         break
     
 # printing GCD
-print("The GCD of the two numbers is ", gcd)             
+print("The GCD of the two numbers is", gcd)             
