@@ -1,4 +1,3 @@
-import math
 # defining the getSum() recursive function
 def getSum(num):
     if num == 0:
@@ -6,10 +5,14 @@ def getSum(num):
         return num
     else:
         # Iterative case
-        return math.pow((num%10),3) + getSum(num//10)
+        return pow((num%10),order) + getSum(num//10)
 
 # taking input and storing in num variable
 num = int(input("Enter a number: "))
+
+# finding order using len() and str() function
+order = len(str(num))  
+
 # initializing the sum variable by getting the sum from getSum()
 sum = getSum(num)
 
