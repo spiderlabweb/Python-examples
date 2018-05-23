@@ -1,6 +1,6 @@
 # Taking a string from user
 s = input("Enter a string: ")
-# Reversing the string s and storing in rs variable using split
+# Reversing the string s and storing in rs variable using slice
 rs = s[len(s)::-1]
 # Checking whether the given string and reversed string is same
 if s == rs:
