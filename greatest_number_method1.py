@@ -3,7 +3,7 @@ num1 = int(input("Enter first number: "))
 # taking second number
 num2 = int(input("Enter second number: "))          
 # taking third number
-num3 = int(input("Enter third number: "))  
+num3 = int(input("And Enter third number: "))  
  
 if (num1 > num2) and (num1 > num3):
    max = num1

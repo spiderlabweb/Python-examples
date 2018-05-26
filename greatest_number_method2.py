@@ -3,7 +3,7 @@ num1 = int(input("Enter first number: "))
 # taking second number
 num2 = int(input("Enter second number: "))          
 # taking third number
-num3 = int(input("Enter third number: "))           
+num3 = int(input("And Enter third number: "))           
 
 # assuming first number to max
 max = num1                                          
@@ -20,4 +20,4 @@ else:
     max = num1                                      
 
 # printing the max
-print("The greatest among these three numbers is ",max)                
+print("The greatest among these three numbers is",max)                
