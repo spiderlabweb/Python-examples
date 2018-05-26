@@ -20,4 +20,4 @@ else:
     max = num1                                      
 
 # printing the max
-print("The greatest number is ",max)                
+print("The greatest among these three numbers is ",max)                
